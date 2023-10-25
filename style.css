@@ -1,12 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap');
+
+
+:root {
+    --primary: #4D96A9;
+    --primary-hover: #71C0D4;
+    --primary-extra-color: #8FE3F9;
+    --secondary: #855FB1;
+    --secondary-hover: #B18BDD;
+    --secondary-extra-color: #D9B8FF;
+    --heading-color: #28283D;
+    --text-color: #87879D;
+    --white: #FAFAFA;
+}
 
 * {
     box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
-/*body {*/
-/*    width: 375px;*/
-/*}*/
+body{
+    margin: 0;
+}
+
+.card-1 .img-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    overflow: clip;
+}
+
+.card-1 img{
+    width: 199px;
+    height: 153px;
+}
+
+.card-1 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-1 h1{
+    text-align: center;
+}
+
+.card-1 .subheader{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.card-1 .download-btn{
+    margin-bottom: 16px;
+}
+
+.card-1 svg{
+    height: 140px;
+    margin-top: 64px;
+    width: 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
 
 .card-2 {
     max-width: 375px;
@@ -48,9 +104,7 @@
     color: #28283D;
     margin: 0 24px 32px 24px;
     font-weight: 900;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 .card-2-subheading, .card-2-paragraph {
     font-size: 1rem;
@@ -76,3 +130,65 @@
     align-content: center;
     margin-left: 159px;
 }
+
+  
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+    width: 375px;
+    background-image: url("assets/mobile/image-footer.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(77, 150, 169, .8);
+    background-size: 100%;
+    flex-direction: column;
+    margin: auto;
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*position: relative;*/
+}
+
+
+
+/*!*.footer-overlay {*!*/
+/*!*    background-color: rgba(77, 150, 169, 80%);*!*/
+/*!*    position: absolute;*!*/
+/*!*    width: 100%;*!*/
+/*!*    height: 100%;*!*/
+/*}*/
+
+.footer-h2 {
+    color: #FAFAFA;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.footer-p {
+    color: #FAFAFA;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.footer-download-button {
+    color: #FAFAFA;
+    background-color: #855FB1;
+    border-radius: 29px;
+    height: 58px;
+    width: 193px;
+    border: none;
+}
+
+.footer-download-button span {
+
+}
+
+
+
