@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 375px;
+}
+.card-1 .img-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.card-1 img{
+    width: 199px;
+    height: 153px;
+}
