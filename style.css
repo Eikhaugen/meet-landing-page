@@ -100,3 +100,127 @@ body{
 .info-btn:hover, .info-btn:focus {
     background-color: var(--secondary-hover);
 }
+
+.card-2 {
+    max-width: 375px;
+    margin: auto;
+}
+
+.card-2-text {
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    width: 327px;
+    margin: 0 24px 64px 24px;
+}
+
+.card-2-image-collection {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 327px;
+    justify-content: center;
+    margin: 0 24px 64px 24px;
+}
+
+.img-man-texting, .img-men-meeting, .img-woman-videocall, .img-women-videochatting {
+    border-radius: .5rem;
+    height: 143px;
+    width: 151px;
+}
+
+.img-woman-videocall {
+    margin: 0 25px 25px 0;
+}
+
+.img-men-meeting {
+    margin-right: 25px;
+}
+
+.card-2-heading {
+    font-size: 32px;
+    color: #28283D;
+    margin: 0 24px 32px 24px;
+    font-weight: 900;
+
+
+.card-2-subheading, .card-2-paragraph {
+    font-size: 1rem;
+    line-height: 26px;
+}
+
+.card-2-subheading {
+    color: #4D96A9;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-weight: 900;
+}
+
+.card-2-paragraph {
+    color: #87879D;
+    margin-bottom: 64px;
+    font-weight: 500;
+}
+
+.icon-path-2 {
+    justify-content: center;
+    align-content: center;
+    margin-left: 159px;
+}
+
+  
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+    width: 375px;
+    background-image: url("assets/mobile/image-footer.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(77, 150, 169, .8);
+    background-size: 100%;
+    flex-direction: column;
+    margin: auto;
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*position: relative;*/
+}
+
+/*!*.footer-overlay {*!*/
+/*!*    background-color: rgba(77, 150, 169, 80%);*!*/
+/*!*    position: absolute;*!*/
+/*!*    width: 100%;*!*/
+/*!*    height: 100%;*!*/
+/*}*/
+
+.footer-h2 {
+    color: #FAFAFA;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.footer-p {
+    color: #FAFAFA;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.footer-download-button {
+    color: #FAFAFA;
+    background-color: #855FB1;
+    border-radius: 29px;
+    height: 58px;
+    width: 193px;
+    border: none;
+}
+
+.footer-download-button span {
+
+}
