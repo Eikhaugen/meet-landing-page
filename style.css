@@ -3,19 +3,46 @@
 }
 
 body{
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 375px;
+    margin: 0;
 }
+
 .card-1 .img-container{
     display: flex;
     justify-content: center;
     gap: 16px;
+    overflow: clip;
 }
 .card-1 img{
     width: 199px;
     height: 153px;
+}
+
+.card-1 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-1 h1{
+    text-align: center;
+}
+
+.card-1 .subheader{
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.card-1 .download-btn{
+    margin-bottom: 16px;
+}
+
+.card-1 svg{
+    height: 140px;
+    margin-top: 64px;
+    width: 56px;
+    margin-right: auto;
+    margin-left: auto;
 }
