@@ -1,0 +1,16 @@
+:root {
+    --primary: #4D96A9;
+    --primary-hover: #71C0D4;
+    --btn-extra-color: #8FE3F9;
+    --secondary: #855FB1;
+    --secondary-hover: #B18BDD;
+    --secondary-extra-color: #D9B8FF;
+    --heading-color: #28283D;
+    --text-color: #87879D;
+    --white: #FAFAFA;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
