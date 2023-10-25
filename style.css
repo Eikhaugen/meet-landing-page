@@ -1,3 +1,4 @@
+
 :root {
     --primary: #4D96A9;
     --primary-hover: #71C0D4;
@@ -60,3 +61,48 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 428px;
+    width: 375px;
+    background-image: url("assets/mobile/image-footer.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(77, 150, 169, .8);
+    background-size: 100%;
+    flex-direction: column;
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*position: relative;*/
+}
+
+
+
+/*!*.footer-overlay {*!*/
+/*!*    background-color: rgba(77, 150, 169, 80%);*!*/
+/*!*    position: absolute;*!*/
+/*!*    width: 100%;*!*/
+/*!*    height: 100%;*!*/
+/*}*/
+
+.footer-h2 {
+    color: #FAFAFA;
+    font-size: 32px;
+}
+
+.footer-p {
+    color: #FAFAFA;
+    font-size: 18px;
+}
+
+.footer-button {
+    color: #FAFAFA;
+    background-color: #855FB1;
+    border-radius: 29px;
+    height: 58px;
+    width: 193px;
+    border: none;
+}
+
+
