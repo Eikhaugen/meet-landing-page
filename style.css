@@ -60,3 +60,43 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+
+.card-1-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-btn, .info-btn {
+    height: 58px;
+    border-radius: 29px;
+    border: 0;
+    color: var(--white);
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.download-btn:hover, .info-btn:hover, .download-btn:focus, .info-btn:focus {
+    cursor: pointer;
+}
+
+.download-btn {
+    width: 193px;
+    background-color: var(--primary);
+}
+
+.download-btn:hover, .download-btn:focus {
+    background-color: var(--primary-hover);
+}
+.download-btn span {
+    color: var(--primary-extra-color);
+}
+
+.info-btn {
+    width: 139px;
+    background-color: var(--secondary);
+}
+
+.info-btn:hover, .info-btn:focus {
+    background-color: var(--secondary-hover);
+}
