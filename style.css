@@ -30,6 +30,9 @@ header{
     justify-content: center;
     gap: 16px;
     overflow: clip;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-1 img{
@@ -44,15 +47,18 @@ header{
     width: 327px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 48px;
 }
 
 .card-1 h1{
     text-align: center;
+    font-size: 40px;
 }
 
 .card-1 .subheader{
     text-align: center;
     padding-bottom: 32px;
+    color: var(--text-color);
 }
 
 .card-1 .download-btn{
@@ -237,7 +243,10 @@ header{
 }
 /* Large (lg) */
 @media (min-width: 1024px) {
-
+.card-1-btn{
+    flex-direction: row;
+    gap: 16px
+}
 
 }
 /* Extra Large (xl) */
