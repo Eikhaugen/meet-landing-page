@@ -85,7 +85,7 @@ header{
     margin-right: auto;
 }
 
-.download-btn:hover, .info-btn:hover, .download-btn:focus, .info-btn:focus {
+.download-btn:hover, .info-btn:hover, .download-btn:focus, .info-btn:focus, .footer-download-button:hover, .footer-download-button:focus {
     cursor: pointer;
 }
 
