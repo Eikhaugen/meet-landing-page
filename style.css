@@ -113,6 +113,8 @@ header{
 .card-2 {
     max-width: 375px;
     margin: auto;
+    position: relative;
+    padding-bottom: 110px;
 }
 
 .card-2-text {
@@ -175,6 +177,7 @@ header{
     justify-content: center;
     align-content: center;
     margin-left: 159px;
+    position: absolute;
 }
 
   
